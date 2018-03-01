@@ -1,0 +1,22 @@
+/* Typography defaults */
+:root {
+  /* Scale  */
+  --desk-scale: 1.3;
+  --mobile-scale: 1.2;
+  /* Desktop Sizes  */
+  --d-b0: 1.6ex;
+  --d-b1: calc(var(--d-0) * var(--desk-scale));
+  --d-b2: calc(var(--d-b1) * var(--desk-scale));
+  --d-b3: calc(var(--d-b2) * var(--desk-scale));
+  --d-b4: calc(var(--d-b3) * var(--desk-scale));
+  --d-b5: calc(var(--d-b4) * var(--desk-scale));
+  --d-b6: calc(var(--d-b5) * var(--desk-scale));
+  /* Mobile Sizes */
+  --m-b0: 1.6ex;
+  --m-b1: calc(var(--m-b0) * var(--mobile-scale));
+  --m-b2: calc(var(--m-b2) * var(--mobile-scale));
+  --m-b3: calc(var(--m-b3) * var(--mobile-scale));
+  --m-b4: calc(var(--m-b4) * var(--mobile-scale));
+  --m-b5: calc(var(--m-b5) * var(--mobile-scale));
+  --m-b6: calc(var(--m-b6) * var(--mobile-scale));
+}

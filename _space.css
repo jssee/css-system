@@ -1,0 +1,16 @@
+:root {
+  /* Cap height of b0 font-size */
+  --cap: 0.9ex;
+  /* Space vars */
+  --micro: calc(var(--cap) * 0.5);
+  --mini: var(--cap);
+  --small: calc(var(--cap) * 1.5);
+  --medium: calc(var(--cap) * 2.5);
+  --large: calc(var(--cap) * 4);
+  --x-large: calc(var(--cap) * 6.5);
+  --jumbo: calc(var(--cap) * 10.5);
+}
+
+body {
+  padding: var(--x-large);
+}

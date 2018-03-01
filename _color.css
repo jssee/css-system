@@ -1,0 +1,34 @@
+:root {
+  /* Primary Color */
+  --primary: tomato;
+  /* Primary Color Variations */
+  --primary-light: color(var(--primary) tint(30%));
+  --primary-lighter: color(var(--primary) tint(60%));
+  --primary-lightest: color(var(--primary) tint(80%));
+  --primary-dark: color(var(--primary) shade(30%));
+  --primary-darker: color(var(--primary) shade(60%));
+  --primary-darkest: color(var(--primary) shade(80%));
+  
+  /* Secondary Color */
+  --secondary: dodgerblue;
+  /* Secondary Color Variations */
+  --secondary-light: color(var(--secondary) tint(30%));
+  --secondary-lighter: color(var(--secondary) tint(60%));
+  --secondary-lightest: color(var(--secondary) tint(80%));
+  --secondary-dark: color(var(--secondary) shade(30%));
+  --secondary-darker: color(var(--secondary) shade(60%));
+  --secondary-darkest: color(var(--secondary) shade(80%));
+}
+
+body {
+  font-size: var(--m-b0);
+  font-family: sans-serif;
+  background-color: var(--primary);
+}
+
+@media (max-width: 699px) and (min-width: 520px) {
+  body {
+    font-size: var(--d-b0);
+    background-color: var(--secondary);
+  }
+}
